@@ -113,17 +113,7 @@ const App2 = () => {
                 </ul>
                 </div>
             }
-        
-                {
-                    teams.map((team, i) => (
-                        <p key={i}>
-                            <h1>Grupo {i+1}</h1>
-                            <p>{team.gp}</p>
-                            <p>{team.bp}</p>
-                            <h3>{team.sl}</h3>
-                        </p>
-                    ))
-                }
+                      
                 <h1>Grupo A:</h1>
                 <details>
                 {
