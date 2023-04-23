@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { playerList, playerList2, playerList3, selecaoList } from "./database/playersData";
 import './App.css';
-import premier from './Premier.png'
+import brasileirao from './brasileiro.png'
 
 
 const App2 = () => {
@@ -71,7 +71,7 @@ const App2 = () => {
     return (
         <div className="App">
          <nav className='nav'>
-             <img src={premier} />
+             <img src={brasileirao} />
         </nav>
             <button
                 onClick={() => randomizeTeams()}
